@@ -36,24 +36,18 @@ That been said if you want to use windows it is your choice and I hope you won't
 
 After making sure that you have Git,Node.js and NPM open up your terminal(cmd in windows) and write the 
 following command to install the workshop : 
-``npm install -g javascripting``
-
-[check the official github repository to learn more](https://github.com/sethvincent/javascripting).
+``npm install -g javascripting`` - [Learn More](https://github.com/sethvincent/javascripting).
 
 
 **How to install learnyounode workshop ?**
 
 Make sure you have the required tools installed first, then type in your terminal : 
-``npm install -g learnyounode``
-
-[Check the official github repository to learn more](https://github.com/workshopper/learnyounode).
+``npm install -g learnyounode`` - [Learn More](https://github.com/workshopper/learnyounode).
 
 **How to install learn how to  npm ?**
 
 Make sure you have the required tools installed first, then type in your terminal :
-``npm install -g how-to-npm``
-
-[Check the official github repository to learn more](https://github.com/npm/how-to-npm).
+``npm install -g how-to-npm``- [Learn More](https://github.com/npm/how-to-npm).
 
 
 
