@@ -51,4 +51,6 @@ Make sure you have the required tools installed first, then type in your termina
 
 
 
-*I'm excited to be your mentor, and hope to see all of you there.*
+
+~~*I'm excited to be your mentor, and hope to see all of you there.*~~
+*It was a good session, i hope you enjoyed it.*
