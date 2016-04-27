@@ -56,3 +56,22 @@ Make sure you have the required tools installed first, then type in your termina
 ~~*I'm excited to be your mentor, and hope to see all of you there.*~~
 
 *It was a good session, i hope you enjoyed it.*
+
+
+**Opinions :** 
+
+1. The workshop was beneficial, with a good presentation. it is a good  method  to learn.
+2. it is dificult to criticize.
+3. I would like to see more sessions in the upcoming days.
+4. The workshop is build on top of a good methods it is about 'learning by doing' and i hope to pursue the other workshops 
+  in the upcoming sessions if possible.
+5. I loved the workshops and i'm staring to love the language, this workshop allowed me to get started with Javascript.
+  and i would like to complete all the workshops.
+6. Everything was good, a funny way to learn, we want more of this.
+7. I think it is a good opppurtunity to learn Javascript, i learned the maximum. It was really fun and hope to see other     session, Thank you.
+8. I find it a new method to learn and i appriciate it. Thank you for introducing  us to such a good thing.
+
+**Suggestions :**
+
+1. Have another session to do other workshops.
+2. Have another sessions for other languages.
