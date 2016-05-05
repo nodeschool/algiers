@@ -1,0 +1,38 @@
+#banner {
+    border-top: 3px solid black;
+    background-image: url('../img/algiers.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 4em;
+    text-shadow: 1px 1px 10px #333333;
+    height: 300px;
+}
+
+#banner .logo,#banner .info{
+	width: 120px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+#banner .info{
+	padding-top:50px;
+}
+nav ul a{
+	color:black;
+}
+.brand-logo img{
+	width:60px;
+}
+
+
+/*
+.info styles
+*/
+
+.info .row {
+    margin-bottom: 5px;
+}
+.info a{
+  color:white;
+}
