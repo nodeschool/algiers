@@ -36,3 +36,7 @@ nav ul a{
 .info a{
   color:white;
 }
+
+.chip-container{
+    padding: 20px; 
+}
