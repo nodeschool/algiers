@@ -1,5 +1,7 @@
 # NodeSchool Algiers
 
+[![Join the chat at https://gitter.im/nodeschool/algiers](https://badges.gitter.im/nodeschool/algiers.svg)](https://gitter.im/nodeschool/algiers?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Welcome to the NodeSchool Algiers chapter's repository. We use this
 repository for our website and almost all our communication.
 
