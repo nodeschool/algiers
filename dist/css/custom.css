@@ -40,3 +40,29 @@ nav ul a{
 .chip-container{
     padding: 20px; 
 }
+
+
+.card-action p{
+    padding: 5px;
+}
+.card-action a{
+    text-transform: capitalize !important;
+    font-weight: normal;
+    color: #039be5 !important; 
+}
+
+.join-us{
+    background-color:rgb(49, 212, 114);
+    text-transform: capitalize;
+}
+
+.btn:hover, .btn-large:hover{
+    background-color: #2BBB43;
+}
+
+.chip{
+    background-color: black;
+}
+.chip a{
+    color: #FFEA00;    
+}
