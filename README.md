@@ -1,5 +1,6 @@
 <!-- ![NodeSchool algiers Logo](./i/nodeschool-algiers-logo.svg) -->
-![NodeSchool Toronto Logo](http://nodeschool.io/algiers/i/logo.svg)
+<img src="http://nodeschool.io/algiers/i/logo.svg" alt="NodeSchool Toronto Logo" height="248" width="210">
+
 
 # [NodeSchool Algiers](http://nodeschool.io/algiers) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/nodeschool/algiers)
 
