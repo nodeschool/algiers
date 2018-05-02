@@ -1,148 +1,842 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title></title>
-<!-- bower:css -->
-    <link rel="stylesheet" href="./dist/css/materialize.min.css">
-    <link rel="stylesheet" href="./dist/css/custom.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!-- bower:end -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Nodeschool Algiers</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+  <link href="styles.css" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <meta name="apple-mobile-web-app-title" content="NodeSchool algiers">
+
+  <link rel="canonical" href="https://nodeschool.io/algiers" />
+
+  <meta name="description" content="Nodeschool Algiers Chapter">
+  <meta name="keywords" content="NodeJS, Javascript, learning">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NodeSchool algiers">
+  <meta property="og:site_name" content="NodeSchool algiers">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:description" content="Nodeschool Algiers Chapter">
+  <meta property="og:url" content="https://nodeschool.io/algiers">
+  <meta property="og:image" content="https://nodeschool.io/algiers/i/nodeschool-algiers-logo.png">
+  <meta property="geo.placename" content="Algiers, ALG, algeria" />
+  <meta property="geo.region" content="alg" />
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="NodeSchool Algiers">
+  <meta property="twitter:description" content="Nodeschool Algiers Chapter">
+  <meta property="twitter:image" content="https://nodeschool.io/algiers/i/opengraph-card.jpg">
+  <meta property="twitter:url" content="https://nodeschool.io/algiers">
+  <meta property="twitter:site" content="https://nodeschool.io/algiers">
+  <meta property="twitter:label1" value="Where" />
+
+  <!-- update for each new event -->
+  <meta property="twitter:data1" value="MicroClub , Université des Sciences et de la Technologie HOUARI BOUMEDIENE  Algiers, Algeria"
+  />
+  <meta property="twitter:label2" value="When" />
+  <meta property="twitter:data2" value="Mon., 7 May 2018, 5:30 pm" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113062175-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113062175-1');
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "NodeSchool Algiers",
+      "url": "https://nodeschool.io/algiers",
+      "logo": "https://nodeschool.io/algiers/i/nodeschool-algiers-logo.png",
+      "sameAs": ["https://nodeschool.io/algiers",
+        "https://www.facebook.com/NodeSchoolAlgiers/",
+        "http://github.com/nodeschool/algiers"
+      ]
+    }
+  </script>
+
+  <!-- update for each new event -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": "Nodeschool algiers - May 2018",
+      "startDate": "2018-05-07T17:30-05:00",
+      "endDate": "2018-05-07T20:00-05:00",
+      "location": {
+        "@type": "Place",
+        "name": "Shutterstock algiers",
+        "sameAs": "https://www.shutterstock.com/",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4398 Rue Saint-Laurent #103",
+          "addressLocality": "algiers",
+          "postalCode": "H2W 1Z5",
+          "addressRegion": "QC",
+          "addressCountry": "CA"
+        }
+      },
+      "url": "https://www.nodeschool.io/algiers",
+      "description": "Join us for an evening learning Node.js and working on your Javascript based projects.",
+      "image": [
+        "https://nodeschool.io/algiers/i/nodeschool-algiers-logo.png"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://ti.to/nodeschoolmtl/nodeschool-freecodecamp-algiers-may-2018/",
+        "category": "Primary",
+        "availability": "https://schema.org/OnlineOnly",
+        "price": "0"
+      }
+    }
+  </script>
+
 </head>
+
 <body>
-	
-	<section id="banner">
-		<div class="container">
-			<div class="row">
-				<div class="col m2">
-					<a href="http://nodeschool.io/">
-						<img src="logo.svg" alt="NodeSchool Algiers Logo" class="logo">
-					</a>		
-					
-				</div>				
-				<div class="col m7 info">
-					<div class="row">
-						<div class="col m4">
-							<img src="social/github.svg" style="width:100%">
-						</div>
-						<div class="col m8" style="padding-left:0px;">
-							<a href="http://github.com/nodeschool/algiers">
-								nodeschool/algiers	
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col m4">
-							<img src="social/twitter.svg" style="width:100%">
-						</div>
-						<div class="col m8" style="padding-left:0px;">
-							<a href="https://twitter.com/nodeschool_alg">@nodeschool_alg</a>							
-						</div>
-					</div>
-					<div class="row">
-						<div class="col m4">
-							<img src="social/mail.svg" style="width:100%">
-						</div>
-						<div class="col m8" style="padding-left:0px;">
-							<a href="mailto:nodeschoolalgiers@gmail">nodeschoolalgiers@gmail</a>	
-						</div>
-					</div>					
-				</div>
-			</div>			
-		</div>
-	</section>
 
-	<nav class="yellow accent-3" role="navigation" id="navigation">
-      <div class="nav-wrapper container">       	
+  <!-- SVG Images -->
+  <svg class="svgs" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      
+      <pattern id="mentor-1" width="300" height="300" patternUnits="userSpaceOnUse">
+        <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/mentors/shakesbeardz.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+        </image>
+      </pattern>
+      
+      <pattern id="mentor-2" width="300" height="300" patternUnits="userSpaceOnUse">
+        <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/mentors/ismnoiet.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+        </image>
+      </pattern>
+      
 
-        <ul>                   
-          <li><a href="https://gitter.im/nodeschool/algiers" target="_blank"><i class="material-icons left">textsms</i> Say Hi and come to learn/teach Javascript!</a></li>  
-          <li><a href="https://gitter.im/nodeschool/algiers" target="_blank" class="btn join-us">Join us</a></li>          
-        </ul>        
+      <!-- TODO: Add once photos are acquired from events -->
+      <!-- 
+        <pattern id="photo-1" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/1.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-2" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/2.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-3" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/3.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-4" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/4.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-5" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/5.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-6" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/6.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-7" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/7.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-8" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/8.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-9" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/9.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-10" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/10.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-11" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/11.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-12" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/12.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-13" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/13.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-14" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/14.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-15" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/15.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-16" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/16.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-17" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/17.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-18" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/18.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-19" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/19.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-20" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/20.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-21" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/21.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-22" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/22.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-23" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/23.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-24" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/24.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-25" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/25.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-26" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/26.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-27" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/27.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-28" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/28.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-29" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/29.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+        
+        <pattern id="photo-30" width="300" height="300" patternUnits="userSpaceOnUse">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="i/photos/30.jpg" width="250" height="300" preserveAspectRatio="xMidYMid slice">
+          </image>
+        </pattern>
+         -->
+
+      
+    </defs>
+  </svg>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <ul>
+      <li>
+        <a href="#home" class="ir home" data-text="Home">Home</a>
+      </li>
+      <li>
+        <a href="#community" class="ir community" data-text="Community">Community</a>
+      </li>
+      <li>
+        <a href="#events" class="ir events" data-text="Events">Events</a>
+      </li>
+      <li>
+        <a href="#faq" class="ir faq" data-text="FAQ">Frequently Asked Questions</a>
+      </li>
+      <li>
+        <a href="#mentors" class="ir mentors" data-text="Mentors">Mentors</a>
+      </li>
+      <!-- TODO: Add once event has happened on Tito -->
+      <!-- <li><a href="#attendees" class="ir attendees" data-text="Attendees">Attendees</a></li> -->
+      <!-- TODO: Add once photos are acquired from events -->
+      <!-- <li><a href="#photos" class="ir photos" data-text="Photos">Photos</a></li> -->
+      <li>
+        <a href="#codeofconduct" class="ir code" data-text="Code of Conduct">Code of Conduct</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main -->
+  <main class="main cf">
+
+    <section class="panel text">
+
+      <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+          <a class="logo" href="http://nodeschool.io/algiers">
+            <img src="i/logo.svg" alt="NodeSchool Algiers Logo">
+          </a>
+          <h1>Welcome to
+            <br> NodeSchool Algiers</h1>
+        </div>
+
+        <h2 id="community">Community</h2>
+        <p>
+          <strong>NodeSchool Algiers</strong> is a monthly meetup dedicated to helping people learn JavaScript. We help people of
+          all skill levels–from beginners to experts–discover what's possible with JavaScript. Bring yourself, your computer,
+          and the desire to learn to our next event!
+        </p>
+        <p>The NodeSchool Algiers community is
+          <strong>open to anyone</strong>. Whether you're able to attend an event or not, you can join the discussion around learning
+          Node in our Slack channel or by following us on Twitter or Facebook.</p>
+
+        <p>
+          <a href="https://gitter.im/nodeschool/algiers">
+            <img src="https://camo.githubusercontent.com/fed5b5512498193ce4bba599fd94cd12b9f56491/68747470733a2f2f696d672e736869656c64732e696f2f6769747465722f726f6f6d2f6e776a732f6e772e6a732e737667"
+              alt="Nodeschool algiers Gitter">
+          </a>
+          <a href="https://twitter.com/nodeschool_alg" class="twitter-follow-button" data-show-count="false">Follow @nodeschool_alg</a>
+        </p>
+
+        <div class="mailinglist">
+
+          <h3>Get Notified</h3>
+
+          <p>Make sure you know what's going on within the community and whenever we're having an event by signing up to our
+            mailing list below:</p>
+
+          <form action="https://nodeschool.us18.list-manage.com/subscribe?u=3cb7c2c1af4cf25b722d95416&id=822f5383c8" method="post"
+            target="_blank">
+            <label class="firstname">
+              <span>First Name</span>
+              <input type="text" value="" name="FNAME" class="">
+            </label>
+            <label class="lastname">
+              <span>Last Name</span>
+              <input type="text" value="" name="LNAME" class="">
+            </label>
+            <label class="email">
+              <span>Email Address</span>
+              <input type="email" value="" name="EMAIL" class="required email">
+            </label>
+            <div style="position: absolute; left: -5000px;">
+              <input type="text" name="b_62145c918d78960a0c95987c2_ec5cf6637f" tabindex="-1" value="">
+            </div>
+            <input type="submit" value="Subscribe" name="subscribe">
+          </form>
+        </div>
+
+        <h2 id="events">Events</h2>
+        <p>
+          <strong>NodeSchool algiers</strong> events are run by an enthusiastic group of volunteers. The workshops will be held monthly
+          and will always be free.</p>
+        <p>The events offer a low-key environment to learn or practice Node and are generally three hours long.</p>
+
+        <h2 id="faq">Frequently Asked Questions</h2>
+
+        <h3>"What should I expect?"</h3>
+        <p>NodeSchool is a self-directed learning environment, where you bring your own laptop to learn. The intention is for
+          attendees to work on the Node workshops from
+          <a href="http://nodeschool.io/#workshopper-list" target="_blank">nodeschool.io</a>. But if you have a personal project you are working on, do it! The goal of NodeSchool is to help
+          people explore and learn Node. There will be mentors on hand at the events to help you when you hit any road blocks.</p>
+
+        <h3>"How do I install Node?"</h3>
+
+        <p>To install node, download the
+          <a href="https://nodejs.org/">installer</a>, or install it using the
+          <a href="https://nodejs.org/en/download/package-manager/">package manager</a> of your choice.
+        </p>
+
+        <h3>"What is a Workshopper?"</h3>
+        <p>Workshopper is the name used for the open source lesson modules associated with NodeSchool. All are self guided (you
+          don't need to attend a workshop to do one) and most work offline.</p>
+
+        <h3>"How do I run a Workshopper?"</h3>
+        <p> To get started with a Workshopper tutorial you'll have to install and then run that program in terminal/bash. Here's
+          an example of how to install and run the Beginner Node Workshopper:</p>
+        <code class="terminal">
+          <pre>$ npm install -g learnyounode</pre>
+          <pre>$ learnyounode</pre>
+        </code>
+
+        <!-- <h2 id="photos">Photos</h2>
+
+          <div class="list-photos cf">
+            
+            <div class="row">
+              <a href="i/photos/1.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-1')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/2.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-2')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/3.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-3')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/4.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-4')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/5.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-5')"></polygon>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="row">
+              <a href="i/photos/6.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-6')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/7.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-7')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/8.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-8')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/9.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-9')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/10.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-10')"></polygon>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="row">
+              <a href="i/photos/11.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-11')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/12.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-12')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/13.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-13')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/14.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-14')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/15.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-15')"></polygon>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="row">
+              <a href="i/photos/16.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-16')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/17.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-17')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/18.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-18')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/19.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-19')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/20.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-20')"></polygon>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="row">
+              <a href="i/photos/21.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-21')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/22.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-22')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/23.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-23')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/24.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-24')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/25.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-25')"></polygon>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="row">
+              <a href="i/photos/26.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-26')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/27.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-27')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/28.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-28')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/29.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-29')"></polygon>
+                </svg>
+              </a>
+            
+            
+            
+              <a href="i/photos/30.jpg" target="_blank" class="image-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#photo-30')"></polygon>
+                </svg>
+              </a>
+            </div>
+            
+          </div> -->
+
+        <h2 id="codeofconduct">Code of Conduct</h2>
+
+        <p>We, the organizers of
+          <strong>NodeSchool algiers</strong>, are dedicated to providing a harassment-free community for everyone, regardless of
+          sex, gender identity or expression, sexual orientation, disability, physical appearance, age, body size, race,
+          nationality, or religious beliefs. We do not tolerate harassment of community members in any form. Participants
+          violating these rules may be sanctioned or expelled from the community at the discretion of the organizers of
+          <strong>NodeSchool algiers</strong>.</p>
+
+        <p>Harassment includes offensive verbal or written comments related to sex, gender identity or expression, sexual orientation,
+          disability, physical appearance, age, body size, race, nationality, or religious beliefs, deliberate intimidation,
+          threats, stalking, following, harassing photography or recording, sustained disruption of talks or other events,
+          inappropriate physical contact, and unwelcome sexual attention. Sexual language and imagery is not appropriate
+          for any events at
+          <strong>NodeSchool algiers</strong> meetups or in any related communication channels. Community members asked to stop any
+          harassing behavior are expected to comply immediately. Sponsors and presenters are also subject to the anti-harassment
+          policy.</p>
+
+        <p>If a community member engages in harassing behavior, the organizers of
+          <strong>NodeSchool algiers</strong> may take any action they deem appropriate, including warning the offender or expulsion
+          from the community. If you are being harassed, notice that someone else is being harassed, or have any concerns,
+          please contact an organizer immediately.</p>
+
+        <!-- Footer -->
+        <div class="footer">
+
+          <p class="links">
+            <a href="https://ti.to/nodeschoolmtl" title="NodeSchool algiers Event">Events</a>
+            <span class="divider">|</span>
+            <!-- TODO: Get access to (or create) Nodeschool algiers Twitter -->
+            <a href="https://facebook.com/NodeSchoolAlgiers" title="NodeSchool algiers Facebook">Facebook</a>
+            <span class="divider">|</span>
+            <a href="https://twitter.com/NodeSchoolMTL" title="NodeSchool algiers Twitter">Twitter</a>
+            <span class="divider">|</span>
+            <a href="https://github.com/nodeschool/algiers" title="NodeSchool algiers GitHub">GitHub</a>
+            <span class="divider">|</span>
+            <a href="http://nodeschool.io/" title="NodeSchool">NodeSchool.io</a>
+          </p>
+
+        </div>
+
       </div>
-    </nav>
+
+    </section>
+
+    <aside class="panel side">
+
+      <div id="home" class="container">
+
+        <div class="inner">
+
+          <!-- nodeschoo.io info -->
+
+          <a class="logo" href="http://nodeschool.io">
+            <img src="i/schoolhouse.svg" alt="NodeSchool Logo">
+            <p class="about">
+              <strong>NodeSchool</strong> is an open source project run by volunteers with two goals: creating a high quality programming
+              curriculum and to host community learning events. Our curriculum is focused around the "workshopper" format
+              which was first created by
+              <strong>Substack</strong>
+              of the Internet in Summer 2013 when he wrote the
+              <strong>stream-adventure</strong> workshopper.
+            </p>
+          </a>
 
 
+          <!-- event badge -->
 
-    <div class="container">
-    	<div class="row">
-	    	<div class="col s12 m12 l12">
-				<ul class="collapsible" data-collapsible="accordion">
-				    <li class="active">
-				      <div class="collapsible-header"><i class="material-icons left">description</i>About</div>
-				      <div class="collapsible-body"><p>A group of volunteers community members to Teach people Javascript-related Topics(Basics,frameworks etc) in the area of algiers(Capital of Algeria).</p></div>
-				    </li>
-				    <li>
-				      <div class="collapsible-header"><i class="material-icons left">perm_contact_calendar</i> Club Maintainers</div>
+          <!-- update for each new event -->
+          <div class="event">
+            <p class="register">
+              <strong>Register</strong> for our event on
+              <strong>Tuesday, April 2nd </strong>
+            </p>
+            <tito-widget event="nodeschoolmtl/nodeschool-freecodecamp-algiers-april-2018"></tito-widget>
+            <!-- TODO: Set location and details below -->
+            <p class="location">
+              <strong>Location:</strong>&nbsp; Micro Club, Université des Sciences et de la Technologie HOUARI BOUMEDIENE, Algiers
+            </p>
+            <div class="map">
 
-				      <div class="collapsible-body">
-						
-						<div class="chip-container">
-					      	<div class="chip">
-					      		<a href="https://github.com/ismnoiet">
-						      	    <img src="https://avatars1.githubusercontent.com/u/5025240?v=3&s=460" alt="Contact Person">
-						      	   	ismnoiet 					      			
-					      		</a>
-					      	</div>
-					      	<div class="chip">
-					      	   	<a href="https://github.com/rouabhi">
-						      	    <img src="https://avatars3.githubusercontent.com/u/250530?v=3&s=460" alt="Contact Person">
-						      	   	rouabhi						      	   		
-					      	   	</a> 
-					      	</div>
-							
-						</div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.5702670903797!2d3.184527329231523!3d36.71581039874788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e518cfb10fb87%3A0x2b530bef27585812!2sD%C3%A9partement+d%E2%80%99Informatique!5e0!3m2!1sen!2sdz!4v1525206660359"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <p class="schedule">
+              <strong>Schedule</strong>
+            </p>
+            <ul class="timeline">
+              <li class="row">
+                <span class="time">13:00pm - 13:30pm</span>
+                <span class="name">Introducing NodeSchool Algiers</span>
+              </li>
+              <li class="row">
+                <span class="time">13:30pm - 16:00pm</span>
+                <span class="name">Workshop Time</span>
+              </li>
+            </ul>
+            <p class="additional">
+              <!-- TODO: Add email address -->
+              <strong>NodeSchool</strong> strives to be a welcoming and safe event for all attendees. Attendees should follow the
+              <a href="#codeofconduct">code of conduct</a>. If you need further information about an event, please contact:
+              <strong>
+                <a href="mailto:battachyahia@hotmail.com" target="_blank">battachyahia
+                  <span style="display:none">foo</span>@hotmail.com</a>
+              </strong>
+            </p>
+          </div>
+          <div class="alt-signup">
+            <a class="alt-signup" href="https://ti.to/nodeschool-algiers/microdays-nodejs-workshop">➤ Alternative signup page</a>
+            <div>
+              <!-- mentors -->
 
-				      </div>
-				    </li>
-				    <li>
-				      <div class="collapsible-header"><i class="material-icons left">perm_media</i> Previous Events</div>
+              <h2 id="mentors">Mentors</h2>
 
-				      <div class="collapsible-body">
-				      		<div class="row" style="padding:5px 20px">
-			      		        <div class="col s12 m4">
-			      		          <div class="card">
-			      		            <div class="card-image">
-			      		              <img src="dist/img/events/evt2.jpg">
-			      		            </div>			      		            
-			      		            <div class="card-action">
-			      		            	<p>			      		            	  
-			      		            	  <a href="https://goo.gl/photos/wAvcTmyqx4wx7EsQ6">10/10/2016 - Djelfa, Algeria</a>
-			      		            	</p>
+              <p>If you want to help teach or contribute in anyway, make a
+                <strong>
+                  <a href='https://github.com/nodeschool/algiers/pulls'>Pull Request</a>
+                </strong> and add your name to the list of available mentors. We also ask that you please read the
+                <a href='https://github.com/nodeschool/organizers/wiki/Event-Mentor-Best-Practices#on-being-a-mentor'>"On Being a Mentor"</a> tips for
+                <strong>NodeSchool Organizers</strong> before attending as a mentor.</p>
 
-			      		            </div>
-			      		          </div>
-			      		        </div>
-			      		    </div>
-				      </div>
-				    </li>
-				    <li>
-				      <div class="collapsible-header"><i class="material-icons left">contact_phone</i>Contact Us</div>
-				      <div class="collapsible-body"><p>
-				      	<span style="margin-right:40px">
-				      		phone :  <b>+213-555-94-54-88</b>	
-				      	</span>
-				      	<span>
-				      		Email : <b>nodeschoolalgiers@gmail.com</b>	
-				      	</span>  
-				      </p></div>
-				    </li>
-				  </ul>	
-			</div>  			  		
-    	</div>
-    	<div class="row">
-    		<div class="col s12 m12 l12">
-    			
-    		</div>
-    	</div>
-    </div>
+              <p>Mentors are currently
+                <strong>contacted and confirmed</strong> before each event in our
+                <a href='https://gitter.im/nodeschool/algiers'>Gitter Channel</a>.</p>
+            
+              <div class="list-mentors cf">
+                 
+                <div class="row">
+                  <a href="https://github.com/shakesbeardz" target="_blank" class="image-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#mentor-1')"></polygon>
+                    </svg>
+                  </a>
+                    
+                  <a href="https://github.com/ismnoiet" target="_blank" class="image-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <polygon class="hex" points="250,75 250,225 125,300 0,225 0,75 125,0" fill="url('#mentor-2')"></polygon>
+                    </svg>
+                  </a>
+                   
+              </div>
 
+              <!-- <h2 id="attendees">Attendees</h2>
 
-	                    
-<!-- bower:js -->
-	<script src="./dist/js/jquery.min.js"></script>
-    <script src="./dist/js/materialize.min.js"></script>
-<!-- bower:end -->
+            <div class="list-attendees cf">
+              
+            </div> -->
 
-</body>
+            </div>
+
+            <!-- sponsors -->
+
+            <h2 id="sponsors">Sponsors</h2>
+
+            <div class="list-sponsors cf">
+              <!-- TODO: Add sponsors below -->
+
+            </div>
+
+            <h2 id="partners">Partners</h2>
+
+            <div class="list-sponsors cf">
+              <!-- TODO: Add sponsors below -->
+
+            </div>
+
+          </div>
+
+    </aside>
+
+  </main>
+
+  <script type="text/javascript" src="https://js.tito.io/v1" async></script>
+
+  <script type="text/javascript">
+    ! function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        p = /^http:/.test(d.location) ? 'http' : 'https';
+      if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + '://platform.twitter.com/widgets.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+    }(document, 'script', 'twitter-wjs');
+  </script>
+  </body>
+
 </html>
