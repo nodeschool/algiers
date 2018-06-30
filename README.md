@@ -14,9 +14,9 @@ Check out our [website](http://nodeschool.io/algiers/) or [event listings](https
 
 If you want to help teach or contribute in anyway, make a [Pull Request](https://github.com/nodeschool/algiers/pulls) and add your name to the list below with relevant contact details. Mentors and Volunteers are currently contacted and confirmed, before each event, via our [Gitter Channel](https://gitter.im/nodeschool/algiers).
 
-- Shakesbearz : [@shakesbearz](https://github.com/shakesbeardz)
-- Ismnoiet : [@ismnoiet](https://github.com/ismnoiet)
-- LBenzahia : [@LBenzahia](https://github.com/LBenzahia)
+- Ismnoiet: [@ismnoiet](https://github.com/ismnoiet)
+- Shakesbearz: [@shakesbearz](https://github.com/shakesbeardz)
+- LBenzahia: [@LBenzahia](https://github.com/LBenzahia)
 
 
 ### Code of Conduct
