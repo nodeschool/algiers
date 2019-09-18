@@ -1,7 +1,6 @@
 <!-- ![NodeSchool algiers Logo](./i/nodeschool-algiers-logo.svg) -->
 <img src="http://nodeschool.io/algiers/i/logo.svg" alt="NodeSchool Toronto Logo" height="248" width="210">
 
-
 # [NodeSchool Algiers](http://nodeschool.io/algiers) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/nodeschool/algiers)
 
 **NodeSchool** is focused around open source workshops that teach web software skills. Individuals are encouraged to do the [workshoppers](http://nodeschool.io/#workshoppers) on their own or at one of the NodeSchool events. The workshopper tutorials are used as the course curriculum while mentors are here to help attendees work through challenges. Participating in one of the events is easy:
@@ -17,7 +16,7 @@ If you want to help teach or contribute in anyway, make a [Pull Request](https:/
 - Ismnoiet: [@ismnoiet](https://github.com/ismnoiet)
 - Shakesbearz: [@shakesbearz](https://github.com/shakesbeardz)
 - LBenzahia: [@LBenzahia](https://github.com/LBenzahia)
-
+- laridev : [@larbibaraka](https://github.com/larbibaraka)
 
 ### Code of Conduct
 
@@ -26,4 +25,3 @@ Please read our [code of conduct](http://confcodeofconduct.com/) before contribu
 ### Contributing to the Website
 
 Check out our [CONTRIBUTING.md](CONTRIBUTING.md) to get started with setting up the repo.
-
